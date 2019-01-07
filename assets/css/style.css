@@ -141,7 +141,7 @@ html,body {
 }
 
 .fixed_bkgd.fixed_bkgd_4{
-  background-image: url("../images/legally_team.JPG");
+  background-image: url("../images/legally_team.jpg");
   text-align: center;
   display: flex;
   justify-content: center;
