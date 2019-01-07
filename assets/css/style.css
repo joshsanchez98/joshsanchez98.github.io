@@ -1,0 +1,285 @@
+/* Table of Contents:
+- 1. Things to Do
+- 2. Animations
+- 3. Fixed Parts
+- 4. Scrolling Parts
+
+/* 1. Things to Do:
+- Content for Scroll 2, Media Query
+- Content for Scroll 3, Media Query
+*/
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+.topnav{
+  background: white;
+  overflow: hidden;
+
+  font-family: 'Avenir Next';
+  color: black;
+  padding: 15px 15px;
+
+  border-top: 10px;
+  border-bottom: 10px;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav_left{
+  display: flex;
+  flex-direction: row;
+}
+
+.topnav_right{
+  margin-right: 30px;
+}
+
+.topnav_left_spacing{
+  display: flex;
+  margin: 0px 5px 0px 5px;
+}
+
+.topnav_left_spacing:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* 2. Animations */
+
+.grow_option_1{
+  transition: all .2s ease-in-out;
+}
+
+.grow_option_1:hover{
+  transform: scale(1.6);
+  cursor: pointer;
+}
+
+.grow_option_2{
+  transition: all .2s ease-in-out;
+}
+
+.grow_option_2:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@keyframes highlighter_animation{
+  0% {background-position: -0% 0}
+  100% {background-color: yellow;
+        background-position: -99.99% 0}
+}
+
+.highlighter:hover{
+  animation-name: highlighter_animation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+/* 3. Fixed Parts */
+
+.fixed_bkgd{
+  min-height: 70%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.fixed_bkgd.fixed_bkgd_1{
+  background-image: url("../images/pacifica.jpg");
+  min-height: 100%;
+  font-family: 'Avenir Next';
+}
+
+.margin_1{
+  text-align: center;
+  background: rgba(255,255,255,0.5);
+  padding: 0px 10px 15px 10px;
+}
+
+.joshua_sanchez{
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 500;
+  background:rgba(255,255,255,0.5);
+  text-align: center;
+  padding: 15px 10px 0px 10px;
+}
+
+.statement{
+  font-size: 25px;
+}
+
+.fixed_bkgd.fixed_bkgd_2{
+  background-image: url("../images/comms_team.jpg");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed_bkgd.fixed_bkgd_3{
+  background-image: url("../images/course_to_career.png");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed_bkgd.fixed_bkgd_4{
+  background-image: url("../images/legally_team.jpg");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed_bkgd.fixed_bkgd_5{
+  background-image: url("../images/me_on_the_breeze.jpg");
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+/* 4. Scrolling Parts */
+
+.scrolling_bkgd{
+  min-height: 50%;
+}
+
+.scroll_big_text{
+  font-family: 'Avenir Next';
+  font-size: 40px;
+  font-weight: bold;
+  background: rgba(255,255,255,0.5);
+  padding: 20px 10px 20px 10px;
+}
+
+.scroll_sub_text{
+  font-family: 'Avenir Next';
+  text-align: center;
+}
+
+.scrolling_bkgd_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 20px 30px 20px;
+  min-height: 50%;
+}
+
+.scroll_big_text.big_text_1{
+  text-align: center;
+  margin-left: 30px;
+  background: transparent;
+  margin-right: 30px;
+}
+
+.scroll_sub_text.sub_text_1{
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.scrolling_bkgd_2_images{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 10px 0px 10px;
+}
+
+.scrolling_bkgd.scrolling_bkgd_2{
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.scrolling_bkgd_2_image{
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 25px 10px 10px 10px;
+}
+
+.project_title_margin{
+  margin-top: 20px;
+}
+
+.project_subtitle_margin{
+  font-size: 15px;
+}
+
+.scrolling_bkgd.scrolling_bkgd_3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 50%;
+}
+
+.scroll_sub_text.sub_text_3{
+  width: 700px;
+  height: 120px;
+  margin: 0px 100px 20px 100px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  font-size: 25px;
+}
+
+.resume_button{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Avenir Next';
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px 100px 0px 0px;
+}
+
+.scrolling_bkgd.scrolling_bkgd_4{
+  min-height: 200px;
+  border-top: 200px;
+  border-bottom: 200px;
+}
+
+.scroll_sub_text.scroll_sub_text_4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
