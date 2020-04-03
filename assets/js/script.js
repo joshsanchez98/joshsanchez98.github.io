@@ -19,7 +19,7 @@ $(document).ready(function() {
     });
 
     $('#resume_button').click(function() {
-      $(location).attr('href', "https://drive.google.com/open?id=1LkqoMNvq0Eax6ry9rTqVHfZVCay6Oek7");
+      $(location).attr('href', "https://drive.google.com/open?id=1c8fsJNwP5HRutTXvEoRePGYZd8OxS51c");
     });
 
     $('#connect_button').click(function() {
@@ -29,15 +29,15 @@ $(document).ready(function() {
     });
 
     $('#legally').click(function() {
-      $(location).attr('href', "https://www.linkedin.com/company/legally-pt/");
+      $(location).attr('href', "http://www.welegally.com/");
     });
 
     $('#course_to_career').click(function() {
       $(location).attr('href', "https://data-x.blog/projects/project-course-to-career-c2/");
     });
 
-    $('#betblox').click(function() {
-      $(location).attr('href', "https://www.linkedin.com/pulse/small-introduction-our-blockchain-project-jaime-aznar-/");
+    $('#nba').click(function() {
+      $(location).attr('href', "https://drive.google.com/a/berkeley.edu/file/d/1bcCduv7oAnti6OFPuPG9fo7nt-Ls8pT9/view?usp=sharing");
     });
 
     $('#sfbr').click(function() {
@@ -45,7 +45,7 @@ $(document).ready(function() {
     });
 
     $('#resume_icon').click(function() {
-      $(location).attr('href', "https://drive.google.com/open?id=1LkqoMNvq0Eax6ry9rTqVHfZVCay6Oek7");
+      $(location).attr('href', "https://drive.google.com/open?id=1c8fsJNwP5HRutTXvEoRePGYZd8OxS51c");
     });
 
     $('#facebook_icon').click(function() {
