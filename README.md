@@ -1,2 +1,2 @@
 # joshsanchez98.github.io
-Here's my website!
+Files for personal website are stored here. 
